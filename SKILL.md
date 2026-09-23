@@ -1,6 +1,7 @@
 ---
 name: mood-to-design-concept-harness
 description: A Planner→Generator→Evaluator harness that redefines vague screen associations, images, energy, and moods into an actual design concept. It runs a diverge (N distinct concept directions — ask the user for the count, default 3–4) → user-select → converge (sequentially generate concept brief A → frontend code B → image-generation prompt C) flow. Palette and motion aesthetics are delegated to a human checkpoint where the user picks from rendered output, and the Evaluator only scores divergence diversity, traceability, code render, prompt completeness, and example-based cliché. Triggers — KO "무드를 디자인 컨셉으로", "기운을 디자인으로", "연상을 컨셉으로", "분위기 컨셉 잡아줘", "무드보드 컨셉", "감성 디자인 컨셉", "이 느낌으로 디자인", "컨셉 발산 수렴", "무드 to 디자인 하네스". EN "mood to design concept", "vibe to design", "atmosphere to design brief", "turn this mood into a design", "mood board concept harness", "feeling to UI concept", "diverge converge design concept", "design concept from a vibe".
+version: 1.0.0
 ---
 
 # mood-to-design-concept-harness
